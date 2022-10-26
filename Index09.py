@@ -6,4 +6,8 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    if 0<=s<10:
+        return s
+    else:
+        return -1
+print(main(9))
